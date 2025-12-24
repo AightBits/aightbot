@@ -37,8 +37,8 @@ your-bot-project/
 #### Clone and Prepare
 
 ```bash
-git clone <your-repository-url>
-cd your-bot-project
+git clone https://github.com/AightBits/aightbot
+cd aightbot
 ```
 
 #### Create a Virtual Environment (Recommended)
