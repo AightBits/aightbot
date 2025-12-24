@@ -1,4 +1,4 @@
-# Discord Moderator Note-Taking Bot
+# AightBot Discord Moderator Note-Taking Bot
 
 A secure, DM-only Discord bot designed for server moderators to privately create, view, and manage notes about server members. It operates entirely through direct messages to keep moderator actions discreet and uses role-based permissions for access control.
 
