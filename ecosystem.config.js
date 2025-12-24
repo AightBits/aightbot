@@ -1,7 +1,7 @@
 module.exports = {
   apps: [{
     name: 'your-bot-name-here',       // Generic placeholder for the PM2 app name
-    script: 'bot.py',                 // Generic filename; change to your main script
+    script: 'aightbot.py',                 // Generic filename; change to your main script
     interpreter: 'python3',           // Standard interpreter command
     cwd: '/absolute/path/to/your/bot', // PLACEHOLDER: Must be replaced with the actual absolute path
     env: {
