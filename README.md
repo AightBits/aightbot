@@ -14,7 +14,7 @@ A secure, DM-only Discord bot designed for server moderators to privately create
 
 ```
 your-bot-project/
-├── aightbot.py                    # Main bot application code
+├── aightbot.py               # Main bot application code
 ├── config.json               # Server and role configuration (CREATE THIS)
 ├── notes.json                # Data file for stored notes (AUTO-GENERATED)
 ├── bot_actions.log           # Audit log file (AUTO-GENERATED)
