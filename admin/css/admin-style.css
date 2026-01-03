@@ -1,0 +1,185 @@
+/**
+ * AightBot Admin Styles
+ */
+
+.aightbot-settings {
+    max-width: 900px;
+}
+
+.aightbot-settings .page-title-action {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.aightbot-settings .page-title-action .dashicons {
+    margin-right: 4px;
+}
+
+/* Form styling */
+.aightbot-settings .form-table {
+    margin-top: 20px;
+}
+
+.aightbot-settings .form-table th {
+    width: 220px;
+    padding: 20px 10px 20px 0;
+    vertical-align: top;
+}
+
+.aightbot-settings .form-table td {
+    padding: 15px 10px;
+}
+
+.aightbot-settings .required {
+    color: #d63638;
+}
+
+/* Input fields */
+.aightbot-settings .regular-text {
+    width: 100%;
+    max-width: 500px;
+}
+
+.aightbot-settings .large-text {
+    width: 100%;
+    max-width: 600px;
+}
+
+.aightbot-settings input[type="url"].code,
+.aightbot-settings textarea.code {
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.aightbot-settings textarea {
+    resize: vertical;
+}
+
+/* Field descriptions */
+.aightbot-settings .description {
+    color: #646970;
+    margin-top: 5px;
+    display: block;
+    font-size: 13px;
+}
+
+.aightbot-settings .description br {
+    margin-bottom: 3px;
+}
+
+/* Error states */
+.aightbot-settings input.error,
+.aightbot-settings textarea.error {
+    border-color: #d63638;
+    box-shadow: 0 0 0 1px #d63638;
+}
+
+/* Section headers */
+.aightbot-settings h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c3c4c7;
+}
+
+.aightbot-settings h2:first-of-type {
+    margin-top: 10px;
+}
+
+/* Test result */
+#test-result {
+    margin: 20px 0;
+}
+
+#test-result .notice {
+    margin: 0;
+}
+
+#test-result p {
+    margin: 0.5em 0;
+}
+
+/* JSON validation result */
+#json-validation-result {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+#json-validation-result .success-text {
+    color: #00a32a;
+}
+
+#json-validation-result .error-text {
+    color: #d63638;
+}
+
+/* Help section */
+.aightbot-help {
+    margin-top: 40px;
+    padding: 20px;
+    background: #f6f7f7;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+}
+
+.aightbot-help h2 {
+    margin-top: 0;
+    border-bottom: none;
+    font-size: 16px;
+}
+
+.aightbot-help ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.aightbot-help li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+/* Button enhancements */
+.aightbot-settings .button .dashicons {
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.aightbot-settings .button-small {
+    font-size: 12px;
+    padding: 2px 8px;
+    height: auto;
+    line-height: 1.5;
+}
+
+/* Loading state */
+.aightbot-settings .button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Welcome notice */
+.aightbot-settings .notice.notice-info:first-of-type {
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media screen and (max-width: 782px) {
+    .aightbot-settings .form-table th,
+    .aightbot-settings .form-table td {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+    
+    .aightbot-settings .form-table th {
+        padding-bottom: 5px;
+    }
+    
+    .aightbot-settings .regular-text,
+    .aightbot-settings .large-text {
+        max-width: 100%;
+    }
+}
