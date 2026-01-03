@@ -2,6 +2,8 @@
 
 WordPress plugin that connects your site to any OpenAI-compatible LLM API. Includes simple RAG for searching and citing your WordPress content.
 
+![AightBot LLM Chatbot WordPress Plugin](.github/screenshots/chatbot.png)
+
 ## Requirements
 
 - WordPress 5.6+
@@ -16,6 +18,8 @@ WordPress plugin that connects your site to any OpenAI-compatible LLM API. Inclu
 3. Configure in AightBot settings
 
 ## Configuration
+
+![AightBot LLM Chatbot General Configuration ](.github/screenshots/admin_general.png)
 
 ### API Connection
 
@@ -59,6 +63,8 @@ Per-session enforcement.
 Oldest messages are truncated when limits are exceeded.
 
 ## RAG (Retrieval-Augmented Generation)
+
+![AightBot LLM Chatbot General Configuration ](.github/screenshots/admin_rag.png)
 
 Enable to let the bot search and cite your WordPress content.
 
