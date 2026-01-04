@@ -221,5 +221,6 @@ Apache 2.0 License.
 ## Contact
 
 - GitHub issues
-- [ziegler.us](https://ziegler.us)
-- [aightbits.com](https://aightbits.com)
+- [Ziegler Technical Solutions LLC](https://ziegler.us)
+- [AightBot Case Study](https://www.ziegler.us/cs-wordpress-llm-integration/)
+- [AightBits Blog](https://aightbits.com)
